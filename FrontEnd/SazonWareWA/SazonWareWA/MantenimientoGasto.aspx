@@ -40,12 +40,12 @@
                 <asp:BoundField HeaderText="Motivo" DataField="motivo" />
                 <asp:BoundField HeaderText="Fecha" DataField="fecha" />
 
-                <asp:BoundField HeaderText="Dirección del Local" DataField="direccion" />
+
                 <asp:TemplateField>
                     <ItemTemplate>
-                        <asp:LinkButton ID="lbModificar" runat="server" CssClass="btn btn-sm btn-primary me-1" Text="<i class='fas fa-edit'></i>" CommandArgument='<%# Eval("IdLocal") %>' />
-                        <asp:LinkButton ID="lblVisualizar" runat="server" CssClass="btn btn-sm btn-primary me-1" Text="<i class='fas fa-eye'></i>" CommandArgument='<%# Eval("IdLocal") %>' />
-                        <asp:LinkButton ID="lbEliminar" runat="server" CssClass="btn btn-sm btn-danger" Text="<i class='fas fa-trash-alt'></i>" CommandArgument='<%# Eval("IdLocal") %>' />
+                        <asp:LinkButton ID="lbModificar" runat="server" CssClass="btn btn-sm btn-primary me-1" Text="<i class='fas fa-edit'></i>" CommandArgument='<%# Eval("IdGasto") %>' />
+                        <asp:LinkButton ID="lblVisualizar" runat="server" CssClass="btn btn-sm btn-primary me-1" Text="<i class='fas fa-eye'></i>" CommandArgument='<%# Eval("IdGasto") %>' />
+                        <asp:LinkButton ID="lbEliminar" runat="server" CssClass="btn btn-sm btn-danger" Text="<i class='fas fa-trash-alt'></i>" CommandArgument='<%# Eval("IdGasto") %>' />
                     </ItemTemplate>
                 </asp:TemplateField>
             </Columns>

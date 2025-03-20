@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\sazonwarewa\\mantenimientogasto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|solutionrelative:sazonwarewa\\mantenimientogasto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\sazonwarewa\\mantenimientogasto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|solutionrelative:sazonwarewa\\mantenimientogasto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|c:\\users\\mell1\\desktop\\projectos\\app - gestor de gastos\\frontend\\sazonwarewa\\sazonwarewa\\gestiongasto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|c:\\users\\mell1\\desktop\\projectos\\app - gestor de gastos\\frontend\\sazonwarewa\\sazonwarewa\\mantenimientogasto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|solutionrelative:sazonwarewa\\mantenimientogasto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\sazonwarewa\\gestiongasto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|solutionrelative:sazonwarewa\\gestiongasto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 158,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MantenimientoGasto.aspx.cs",
               "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\MantenimientoGasto.aspx.cs",
               "RelativeDocumentMoniker": "SazonWareWA\\MantenimientoGasto.aspx.cs",
@@ -51,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MantenimientoGasto.aspx",
               "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\MantenimientoGasto.aspx",
               "RelativeDocumentMoniker": "SazonWareWA\\MantenimientoGasto.aspx",
@@ -72,8 +72,7 @@
               "RelativeToolTip": "SazonWareWA\\GestionGasto.aspx.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAswFcAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T05:00:31.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T05:00:31.682Z"
             },
             {
               "$type": "Document",
@@ -85,8 +84,7 @@
               "RelativeToolTip": "SazonWareWA\\GestionGasto.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-20T04:54:58.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T04:54:58.97Z"
             },
             {
               "$type": "Document",
