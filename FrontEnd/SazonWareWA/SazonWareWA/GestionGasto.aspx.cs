@@ -44,24 +44,12 @@ namespace SazonWareWA
             }
             else
             {
-                lblTitulo.Text = "Registrar Otro Recurso";
+                lblTitulo.Text = "Registrar Gasto";
             }
         }
         public void mostrarDatosLectura()
         {
-            //btnGuardar.Enabled = false;
-            //btnSubirFotoGrupo.Visible = false;
-            //fileUploadFotoGrupo.Visible = false;
 
-            //txtIdRecurso.Enabled = false;
-            //txtNombre.Enabled = false;
-            //txtPeso.Enabled = false;
-            //txtAlto.Enabled = false;
-            //txtAncho.Enabled = false;
-            //txtPrecio.Enabled = false;
-            //txtDescripcion.Disabled = true; // Deshabilitar el campo Caracteristica
-            //lblUnidadMedida.Enabled = false;
-            //txtDescuento.Enabled = false;
         }
         private void cargarDatosBDGastos()
         {
@@ -135,40 +123,6 @@ namespace SazonWareWA
         {
             lblMensajeError.Text = mensaje;
             ScriptManager.RegisterStartupScript(this, GetType(), "mostrarModal", "$('#errorModal2').modal('show');", true);
-        }
-        protected void ModalLocal_lbBuscarLocal_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void ModalLocal_gvClientes_PageIndexChanging(object sender, GridViewPageEventArgs e)
-        {
-
-        }
-
-        protected void ModalLocal_lbSeleccionar_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void ModalRecurso_lbBuscarRecurso_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void ModalRecurso_lbBuscarRecurso_Click1(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void ModalRecurso_lbSeleccionar_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void ModalRecurso_gvClientes_PageIndexChanging(object sender, GridViewPageEventArgs e)
-        {
-
         }
 
     }

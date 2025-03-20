@@ -19,6 +19,10 @@
       "RelativeMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|solutionrelative:sazonwarewa\\gestiongasto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|c:\\users\\mell1\\desktop\\projectos\\app - gestor de gastos\\frontend\\sazonwarewa\\sazonwarewa\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|solutionrelative:sazonwarewa\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\sazonwarewa\\softmibanco.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|solutionrelative:sazonwarewa\\softmibanco.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 158,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.aspx",
+              "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\Index.aspx",
+              "RelativeDocumentMoniker": "SazonWareWA\\Index.aspx",
+              "ToolTip": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\Index.aspx",
+              "RelativeToolTip": "SazonWareWA\\Index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-20T13:45:26.488Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,7 +61,7 @@
               "RelativeDocumentMoniker": "SazonWareWA\\MantenimientoGasto.aspx.cs",
               "ToolTip": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\MantenimientoGasto.aspx.cs",
               "RelativeToolTip": "SazonWareWA\\MantenimientoGasto.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T05:04:46.393Z",
               "EditorCaption": ""
@@ -55,8 +72,8 @@
               "Title": "MantenimientoGasto.aspx",
               "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\MantenimientoGasto.aspx",
               "RelativeDocumentMoniker": "SazonWareWA\\MantenimientoGasto.aspx",
-              "ToolTip": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\MantenimientoGasto.aspx",
-              "RelativeToolTip": "SazonWareWA\\MantenimientoGasto.aspx",
+              "ToolTip": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\MantenimientoGasto.aspx*",
+              "RelativeToolTip": "SazonWareWA\\MantenimientoGasto.aspx*",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-03-20T05:04:37.574Z",
@@ -70,9 +87,10 @@
               "RelativeDocumentMoniker": "SazonWareWA\\GestionGasto.aspx.cs",
               "ToolTip": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\GestionGasto.aspx.cs",
               "RelativeToolTip": "SazonWareWA\\GestionGasto.aspx.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAswFcAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAIAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T05:00:31.682Z"
+              "WhenOpened": "2025-03-20T05:00:31.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -84,11 +102,12 @@
               "RelativeToolTip": "SazonWareWA\\GestionGasto.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-20T04:54:58.97Z"
+              "WhenOpened": "2025-03-20T04:54:58.97Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SoftMiBanco.Master",
               "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\SoftMiBanco.Master",
               "RelativeDocumentMoniker": "SazonWareWA\\SoftMiBanco.Master",
