@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|c:\\users\\mell1\\desktop\\projectos\\app - gestor de gastos\\frontend\\sazonwarewa\\sazonwarewa\\gestiongasto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|solutionrelative:sazonwarewa\\gestiongasto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|c:\\users\\mell1\\desktop\\projectos\\app - gestor de gastos\\frontend\\sazonwarewa\\sazonwarewa\\mantenimientogasto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|solutionrelative:sazonwarewa\\mantenimientogasto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|c:\\users\\mell1\\desktop\\projectos\\app - gestor de gastos\\frontend\\sazonwarewa\\sazonwarewa\\sazonware.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|solutionrelative:sazonwarewa\\sazonware.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|c:\\users\\mell1\\desktop\\projectos\\app - gestor de gastos\\frontend\\sazonwarewa\\sazonwarewa\\mantenimientogasto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|solutionrelative:sazonwarewa\\mantenimientogasto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|c:\\users\\mell1\\desktop\\projectos\\app - gestor de gastos\\frontend\\sazonwarewa\\sazonwarewa\\gestiongasto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|solutionrelative:sazonwarewa\\gestiongasto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -17,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\sazonwarewa\\sazonware.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|solutionrelative:sazonwarewa\\sazonware.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|c:\\users\\mell1\\desktop\\projectos\\app - gestor de gastos\\frontend\\sazonwarewa\\sazonwarewa\\sazonware.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E8A6C9-7006-48E4-8A19-A37944D0C1A5}|SazonWareWA\\SoftProgWA.csproj|solutionrelative:sazonwarewa\\sazonware.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0462A1DD-3542-48EB-B0A6-1344B149105C}|SazonWareBO\\SoftProgBO.csproj|C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\sazonwarebo\\gastobo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 158,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +66,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MantenimientoGasto.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\MantenimientoGasto.aspx.cs",
+              "RelativeDocumentMoniker": "SazonWareWA\\MantenimientoGasto.aspx.cs",
+              "ToolTip": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\MantenimientoGasto.aspx.cs",
+              "RelativeToolTip": "SazonWareWA\\MantenimientoGasto.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T05:04:46.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MantenimientoGasto.aspx",
+              "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\MantenimientoGasto.aspx",
+              "RelativeDocumentMoniker": "SazonWareWA\\MantenimientoGasto.aspx",
+              "ToolTip": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\MantenimientoGasto.aspx",
+              "RelativeToolTip": "SazonWareWA\\MantenimientoGasto.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-20T05:04:37.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GestionGasto.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\GestionGasto.aspx.cs",
+              "RelativeDocumentMoniker": "SazonWareWA\\GestionGasto.aspx.cs",
+              "ToolTip": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\GestionGasto.aspx.cs",
+              "RelativeToolTip": "SazonWareWA\\GestionGasto.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T05:00:31.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GestionGasto.aspx",
               "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\GestionGasto.aspx",
               "RelativeDocumentMoniker": "SazonWareWA\\GestionGasto.aspx",
@@ -67,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Index.aspx",
               "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\Index.aspx",
               "RelativeDocumentMoniker": "SazonWareWA\\Index.aspx",
@@ -80,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "SoftMiBanco.Master",
               "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\SoftMiBanco.Master",
               "RelativeDocumentMoniker": "SazonWareWA\\SoftMiBanco.Master",
@@ -93,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "SazonWare.Master.cs",
               "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\SazonWare.Master.cs",
               "RelativeDocumentMoniker": "SazonWareWA\\SazonWare.Master.cs",
@@ -106,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "BaseBO.cs",
               "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareBO\\BaseBO.cs",
               "RelativeDocumentMoniker": "SazonWareBO\\BaseBO.cs",
@@ -119,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\Web.config",
               "RelativeDocumentMoniker": "SazonWareWA\\Web.config",
@@ -132,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "SazonWare.Master",
               "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareWA\\SazonWare.Master",
               "RelativeDocumentMoniker": "SazonWareWA\\SazonWare.Master",
@@ -145,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "GastoBO.cs",
               "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareBO\\GastoBO.cs",
               "RelativeDocumentMoniker": "SazonWareBO\\GastoBO.cs",
@@ -158,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "app.config",
               "DocumentMoniker": "C:\\Users\\mell1\\Desktop\\Projectos\\App - Gestor de Gastos\\FrontEnd\\SazonWareWA\\SazonWareBO\\app.config",
               "RelativeDocumentMoniker": "SazonWareBO\\app.config",
