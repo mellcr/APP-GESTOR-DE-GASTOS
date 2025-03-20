@@ -18,6 +18,23 @@ namespace SazonWareWA
         }
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                gdvLocal.DataSource = gastoBO.listarTodos();
+                gdvLocal.DataBind();
+            }
+        }
+
+        protected void lbBuscarRecurso_Click(object sender, EventArgs e)
+        {
+            int mes = Int32.Parse(ddlMes.Text);
+            int anho = Int32.Parse(ddlAnio.Text);
+            gdvLocal.DataSource = gastoBO.buscarGastoFecha(mes, anho);
+            gdvLocal.DataBind();
+        }
+
+        protected void gdvLocal_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
 
         }
     }
