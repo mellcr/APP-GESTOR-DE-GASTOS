@@ -1,4 +1,4 @@
-# Documentación de la BD
+# Aplicacion Gestor de Gastos
 
 ## 📂 Estructura de la Base de Datos
 
