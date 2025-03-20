@@ -89,29 +89,28 @@ namespace SazonWareWA
         {
             try
             {
-                if (ValidarCampos())
+                int idGasto = 0;
+                if (this.esta_modificando)
                 {
-                    string tituloGasto = txtNombreGasto.Text;
-                    decimal monto = decimal.Parse(txtMonto.Text);
-                    DateTime fecha = DateTime.Parse(txtFecha.Text);
-                   // string motivo = textMotivo.Text;
-
-                    int.TryParse(txtIdGasto.Text, out int idGasto);
-
-                    if (idGasto > 0)
-                    {
-                        // Llamada a la capa de negocio para actualizar el gasto
-
-                        //GastoBO.Modificar(idGasto, tituloGasto, monto, fecha, motivo);
-                    }
-                    else
-                    {
-                        // Llamada a la capa de negocio para registrar un nuevo gasto
-                        //.Insertar(tituloGasto, monto, fecha, motivo);
-                    }
-
-                    Response.Redirect("mantenimiento_gastos.aspx");
+                    idGasto = int.Parse(txtIdGasto.Text);
                 }
+
+                string tituloGasto = txtNombreGasto.Text;
+                Double monto = Double.Parse(txtMonto.Text);
+                DateTime fecha = DateTime.Parse(txtFecha.Text);
+                string motivo = textMotivo.Text;
+
+                if (this.esta_modificando)
+                {
+                    gastoBO.modificar(idGasto, tituloGasto, motivo, fecha, monto);
+                }
+                else
+                {
+                    gastoBO.insertar(tituloGasto, motivo, fecha, monto);
+                }
+
+                // Redirige al mantenimiento después de guardar
+                Response.Redirect("MantenimientoGasto.aspx");
             }
             catch
             {

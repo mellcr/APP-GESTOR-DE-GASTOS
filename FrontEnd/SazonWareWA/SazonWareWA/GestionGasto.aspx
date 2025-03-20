@@ -44,12 +44,14 @@
                         <asp:TextBox ID="txtFecha" runat="server" CssClass="form-control" TextMode="Date" />
                     </div>
                 </div>
+
                 <div class="mb-2 row">
                     <asp:Label ID="lblMotivo" runat="server" Text="Motivo:" CssClass="col-sm-2 col-form-label" />
                     <div class="col-sm-6">
-                        <textarea class="form-control" id="textMotivo" rows="3" placeholder="Escribe aquí el motivo o detall adicional..."></textarea>
+                        <asp:TextBox ID="textMotivo" runat="server" CssClass="form-control" TextMode="MultiLine" Rows="3" placeholder="Escribe aquí el motivo o detalle adicional..." />
                     </div>
                 </div>
+
             </div>
         </div>
 
