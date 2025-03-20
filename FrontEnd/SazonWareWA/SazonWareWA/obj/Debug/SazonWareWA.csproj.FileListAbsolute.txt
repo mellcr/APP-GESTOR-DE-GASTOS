@@ -1,0 +1,11 @@
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareWA\obj\Debug\SazonWareWA.csproj.AssemblyReference.cache
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareWA\obj\Debug\SazonWareWA.csproj.CoreCompileInputs.cache
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareWA\bin\SazonWareWA.dll.config
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareWA\bin\SazonWareWA.dll
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareWA\bin\SazonWareWA.pdb
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareWA\bin\SazonWareBO.dll
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareWA\bin\SazonWareBO.pdb
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareWA\bin\SazonWareBO.dll.config
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareWA\obj\Debug\SazonWareWA.csproj.CopyComplete
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareWA\obj\Debug\SazonWareWA.dll
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareWA\obj\Debug\SazonWareWA.pdb

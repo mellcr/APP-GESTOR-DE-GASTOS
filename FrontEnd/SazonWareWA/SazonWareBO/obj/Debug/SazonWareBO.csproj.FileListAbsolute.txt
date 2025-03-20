@@ -1,0 +1,7 @@
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareBO\bin\Debug\SazonWareBO.dll.config
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareBO\bin\Debug\SazonWareBO.dll
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareBO\bin\Debug\SazonWareBO.pdb
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareBO\obj\Debug\SazonWareBO.csproj.AssemblyReference.cache
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareBO\obj\Debug\SazonWareBO.csproj.CoreCompileInputs.cache
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareBO\obj\Debug\SazonWareBO.dll
+T:\Laboratorio 14 - 2024 - 2 - Estudiantes\FrontEnd\SazonWareWA\SazonWareBO\obj\Debug\SazonWareBO.pdb

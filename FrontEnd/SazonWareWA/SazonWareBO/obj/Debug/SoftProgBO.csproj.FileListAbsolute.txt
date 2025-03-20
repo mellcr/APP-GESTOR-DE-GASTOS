@@ -1,0 +1,7 @@
+C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareBO\bin\Debug\SazonWareBO.dll.config
+C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareBO\bin\Debug\SazonWareBO.dll
+C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareBO\bin\Debug\SazonWareBO.pdb
+C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareBO\obj\Debug\SoftProgBO.csproj.AssemblyReference.cache
+C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareBO\obj\Debug\SoftProgBO.csproj.CoreCompileInputs.cache
+C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareBO\obj\Debug\SazonWareBO.dll
+C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareBO\obj\Debug\SazonWareBO.pdb

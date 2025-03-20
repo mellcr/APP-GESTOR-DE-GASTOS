@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://services.gasto.soft.mibanco.pe/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="ServicioWS" targetNamespace="http://services.gasto.soft.mibanco.pe/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/SoftWSBL/ServicioWS?xsd=1" namespace="http://services.gasto.soft.mibanco.pe/" />
+    </xsd:schema>
+  </types>
+  <message name="insertarGasto">
+    <part name="parameters" element="tns:insertarGasto" />
+  </message>
+  <message name="insertarGastoResponse">
+    <part name="parameters" element="tns:insertarGastoResponse" />
+  </message>
+  <message name="listarGastos">
+    <part name="parameters" element="tns:listarGastos" />
+  </message>
+  <message name="listarGastosResponse">
+    <part name="parameters" element="tns:listarGastosResponse" />
+  </message>
+  <message name="eliminarGasto">
+    <part name="parameters" element="tns:eliminarGasto" />
+  </message>
+  <message name="eliminarGastoResponse">
+    <part name="parameters" element="tns:eliminarGastoResponse" />
+  </message>
+  <message name="listarGastosPorMes">
+    <part name="parameters" element="tns:listarGastosPorMes" />
+  </message>
+  <message name="listarGastosPorMesResponse">
+    <part name="parameters" element="tns:listarGastosPorMesResponse" />
+  </message>
+  <message name="modificarGasto">
+    <part name="parameters" element="tns:modificarGasto" />
+  </message>
+  <message name="modificarGastoResponse">
+    <part name="parameters" element="tns:modificarGastoResponse" />
+  </message>
+  <message name="obtenerGastoPorId">
+    <part name="parameters" element="tns:obtenerGastoPorId" />
+  </message>
+  <message name="obtenerGastoPorIdResponse">
+    <part name="parameters" element="tns:obtenerGastoPorIdResponse" />
+  </message>
+  <portType name="ServicioWS">
+    <operation name="insertarGasto">
+      <input wsam:Action="http://services.gasto.soft.mibanco.pe/ServicioWS/insertarGastoRequest" message="tns:insertarGasto" />
+      <output wsam:Action="http://services.gasto.soft.mibanco.pe/ServicioWS/insertarGastoResponse" message="tns:insertarGastoResponse" />
+    </operation>
+    <operation name="listarGastos">
+      <input wsam:Action="http://services.gasto.soft.mibanco.pe/ServicioWS/listarGastosRequest" message="tns:listarGastos" />
+      <output wsam:Action="http://services.gasto.soft.mibanco.pe/ServicioWS/listarGastosResponse" message="tns:listarGastosResponse" />
+    </operation>
+    <operation name="eliminarGasto">
+      <input wsam:Action="http://services.gasto.soft.mibanco.pe/ServicioWS/eliminarGastoRequest" message="tns:eliminarGasto" />
+      <output wsam:Action="http://services.gasto.soft.mibanco.pe/ServicioWS/eliminarGastoResponse" message="tns:eliminarGastoResponse" />
+    </operation>
+    <operation name="listarGastosPorMes">
+      <input wsam:Action="http://services.gasto.soft.mibanco.pe/ServicioWS/listarGastosPorMesRequest" message="tns:listarGastosPorMes" />
+      <output wsam:Action="http://services.gasto.soft.mibanco.pe/ServicioWS/listarGastosPorMesResponse" message="tns:listarGastosPorMesResponse" />
+    </operation>
+    <operation name="modificarGasto">
+      <input wsam:Action="http://services.gasto.soft.mibanco.pe/ServicioWS/modificarGastoRequest" message="tns:modificarGasto" />
+      <output wsam:Action="http://services.gasto.soft.mibanco.pe/ServicioWS/modificarGastoResponse" message="tns:modificarGastoResponse" />
+    </operation>
+    <operation name="obtenerGastoPorId">
+      <input wsam:Action="http://services.gasto.soft.mibanco.pe/ServicioWS/obtenerGastoPorIdRequest" message="tns:obtenerGastoPorId" />
+      <output wsam:Action="http://services.gasto.soft.mibanco.pe/ServicioWS/obtenerGastoPorIdResponse" message="tns:obtenerGastoPorIdResponse" />
+    </operation>
+  </portType>
+  <binding name="ServicioWSPortBinding" type="tns:ServicioWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="insertarGasto">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarGastos">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="eliminarGasto">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarGastosPorMes">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="modificarGasto">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="obtenerGastoPorId">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ServicioWS">
+    <port name="ServicioWSPort" binding="tns:ServicioWSPortBinding">
+      <soap:address location="http://localhost:8080/SoftWSBL/ServicioWS" />
+    </port>
+  </service>
+</definitions>
