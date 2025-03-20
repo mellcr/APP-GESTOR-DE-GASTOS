@@ -34,20 +34,12 @@
     </div>
     <!-- Tabla -->
     <div class="container row">
-        <asp:GridView ID="gdvLocal" runat="server" AllowPaging="true" PageSize="15" OnPageIndexChanging="gdvLocal_PageIndexChanging" AutoGenerateColumns="false" CssClass="table table-hover table-responsive table-striped">
+        <asp:GridView ID="gdvLocal" runat="server" AllowPaging="true" AutoGenerateColumns="false" CssClass="table table-hover table-responsive table-striped">
             <Columns>
                 <asp:BoundField HeaderText="Titulo" DataField="titulo" />
                 <asp:BoundField HeaderText="Motivo" DataField="motivo" />
                 <asp:BoundField HeaderText="Fecha" DataField="fecha" />
-
-
-                <asp:TemplateField>
-                    <ItemTemplate>
-                        <asp:LinkButton ID="lbModificar" runat="server" CssClass="btn btn-sm btn-primary me-1" Text="<i class='fas fa-edit'></i>" CommandArgument='<%# Eval("IdGasto") %>' />
-                        <asp:LinkButton ID="lblVisualizar" runat="server" CssClass="btn btn-sm btn-primary me-1" Text="<i class='fas fa-eye'></i>" CommandArgument='<%# Eval("IdGasto") %>' />
-                        <asp:LinkButton ID="lbEliminar" runat="server" CssClass="btn btn-sm btn-danger" Text="<i class='fas fa-trash-alt'></i>" CommandArgument='<%# Eval("IdGasto") %>' />
-                    </ItemTemplate>
-                </asp:TemplateField>
+                <asp:BoundField HeaderText="Monto" DataField="monto" />
             </Columns>
         </asp:GridView>
         <div class="container row">

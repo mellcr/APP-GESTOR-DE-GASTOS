@@ -38,11 +38,17 @@
             <hr />
             <ul class="mynav nav nav-pills flex-column mb-auto">
                 <li class="nav-item mb-1">
-                    <a href="GestionGasto.aspx"><i class="fa-solid fa-flying-disc pe-2"></i>
+                    <a href="MantenimientoGasto.aspx"><i class="fa-solid fa-flying-disc pe-2"></i>
                         Mantenimiento Gastos
                     </a>
                 </li>
+                <li class="nav-item mb-1">
+                    <a href="GestionGasto.aspx"><i class="fa-solid fa-flying-disc pe-2"></i>
+                        Gestion Gastos
+                    </a>
+                </li>
             </ul>
+
             <hr />
             <div class="d-flex">
                 <i class="fa-solid fa-book me-2"></i>
