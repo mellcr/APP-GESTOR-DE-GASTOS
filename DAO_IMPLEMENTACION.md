@@ -108,5 +108,4 @@ public class UsuarioDAO extends DAOImpl {
 
 Con esta estructura, `UsuarioDAO` puede heredar y utilizar los métodos definidos en `DAOImpl`, asegurando una gestión estructurada y reutilizable del acceso a la base de datos.
 
----
 
