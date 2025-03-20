@@ -11,7 +11,7 @@ namespace SazonWareWA
 {
 
 
-    public partial class SazonWare
+    public partial class SoftMiBanco
     {
 
         /// <summary>
