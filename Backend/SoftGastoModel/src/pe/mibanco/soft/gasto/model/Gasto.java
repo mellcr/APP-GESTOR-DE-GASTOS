@@ -16,7 +16,7 @@ public class Gasto implements Serializable {
     private Double monto;
     private Boolean activo;
 
-    // Constructor con parámetros
+    // Constructor con parámetrossto(Integer idGasto,
     public Gasto(Integer idGasto, String titulo, String motivo, Date fecha, 
             Double monto) {
         this.idGasto = idGasto;
