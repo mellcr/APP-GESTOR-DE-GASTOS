@@ -4,47 +4,139 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using SazonWareBO;
 
 namespace SazonWareWA
 {
     public partial class GestionGasto : System.Web.UI.Page
     {
+        private GastoBO gastoBO;
+        private int idGasto;
+        private bool esta_modificando;
+        private bool esta_viendo;
         public GestionGasto()
         {
-
+            gastoBO = new GastoBO();
         }
-        protected void Page_Load(object sender, EventArgs e)
+        protected void Page_Init(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            if (Session["idGasto"] != null)
             {
-                MantenimientoGasto mantenimiento = new MantenimientoGasto();
-                //mantenimiento.LlenarMes(" - ", ddlMes);
-                //mantenimiento.LlenarAnios(" - ", ddlAnio);
+                this.idGasto = (int)Session["idGasto"];
+            }
+
+            string accion = Request.QueryString["accion"];
+            if (accion == "modificar")
+            {
+                esta_modificando = true;
+                lblTitulo.Text = "Modificar Gastos";
+                if (!IsPostBack)
+                {
+                    cargarDatosBDGastos();
+                }
+            }
+            else if (accion == "ver")
+            {
+                esta_viendo = true;
+                lblTitulo.Text = "Visualizar Datos Gastos";
+                cargarDatosBDGastos();
+                mostrarDatosLectura();
+            }
+            else
+            {
+                lblTitulo.Text = "Registrar Otro Recurso";
             }
         }
-
-        protected void lbBuscarLocal_Click(object sender, EventArgs e)
+        public void mostrarDatosLectura()
         {
-            string script = "window.onload = function() { showModalFormLocal() };";
-            ClientScript.RegisterStartupScript(GetType(), "", script, true);
+            //btnGuardar.Enabled = false;
+            //btnSubirFotoGrupo.Visible = false;
+            //fileUploadFotoGrupo.Visible = false;
+
+            //txtIdRecurso.Enabled = false;
+            //txtNombre.Enabled = false;
+            //txtPeso.Enabled = false;
+            //txtAlto.Enabled = false;
+            //txtAncho.Enabled = false;
+            //txtPrecio.Enabled = false;
+            //txtDescripcion.Disabled = true; // Deshabilitar el campo Caracteristica
+            //lblUnidadMedida.Enabled = false;
+            //txtDescuento.Enabled = false;
+        }
+        private void cargarDatosBDGastos()
+        {
+
         }
 
-        protected void lbBuscarRecurso_Click(object sender, EventArgs e)
+        protected void Page_Load(object sender, EventArgs e)
         {
-            string script = "window.onload = function() { showModalFormRecurso() };";
-            ClientScript.RegisterStartupScript(GetType(), "", script, true);
+
+            if (!IsPostBack)
+            {
+                if (!IsPostBack) // Para que solo se ejecute la primera vez
+                {
+                    txtFecha.Text = DateTime.Now.ToString("yyyy-MM-dd"); // Formato compatible con input type="date"
+                }
+            }
         }
 
         protected void lbRegresar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("mantenimiento_kardex.aspx");
+            Response.Redirect("MantenimientoGasto.aspx");
         }
 
         protected void btnGenerar_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (ValidarCampos())
+                {
+                    string tituloGasto = txtNombreGasto.Text;
+                    decimal monto = decimal.Parse(txtMonto.Text);
+                    DateTime fecha = DateTime.Parse(txtFecha.Text);
+                   // string motivo = textMotivo.Text;
 
+                    int.TryParse(txtIdGasto.Text, out int idGasto);
+
+                    if (idGasto > 0)
+                    {
+                        // Llamada a la capa de negocio para actualizar el gasto
+
+                        //GastoBO.Modificar(idGasto, tituloGasto, monto, fecha, motivo);
+                    }
+                    else
+                    {
+                        // Llamada a la capa de negocio para registrar un nuevo gasto
+                        //.Insertar(tituloGasto, monto, fecha, motivo);
+                    }
+
+                    Response.Redirect("mantenimiento_gastos.aspx");
+                }
+            }
+            catch
+            {
+                MostrarMensajeError("Ocurrió un error al guardar el gasto.");
+            }
+        }
+        private bool ValidarCampos()
+        {
+            if (string.IsNullOrWhiteSpace(txtNombreGasto.Text)) return MostrarErrorCampo("Título del Gasto");
+            if (!decimal.TryParse(txtMonto.Text, out _)) return MostrarErrorCampo("Monto");
+            if (!DateTime.TryParse(txtFecha.Text, out _)) return MostrarErrorCampo("Fecha");
+            return true;
         }
 
+        private bool MostrarErrorCampo(string campo)
+        {
+            MostrarMensajeError($"El campo {campo} es obligatorio o tiene un formato incorrecto.");
+            return false;
+        }
+
+        private void MostrarMensajeError(string mensaje)
+        {
+            lblMensajeError.Text = mensaje;
+            ScriptManager.RegisterStartupScript(this, GetType(), "mostrarModal", "$('#errorModal2').modal('show');", true);
+        }
         protected void ModalLocal_lbBuscarLocal_Click(object sender, EventArgs e)
         {
 
@@ -79,9 +171,6 @@ namespace SazonWareWA
         {
 
         }
-
-
-
 
     }
 }

@@ -20,13 +20,22 @@ public class DBManagerEncrip {
     private static final String ARCHIVO_CONFIGURACION = "jdbc.properties";
     
     private Connection conexion;
-    private String driver;
-    private String tipo_de_driver;
-    private String base_de_datos;
-    private String nombre_de_host;
-    private String puerto;
-    private String usuario;
-    private String contraseña;
+    
+//    private String driver;
+//    private String tipo_de_driver;
+//    private String base_de_datos;
+//    private String nombre_de_host;
+//    private String puerto;
+//    private String usuario;
+//    private String contraseña;
+    
+    private String driver = "com.mysql.cj.jdbc.Driver";
+    private String tipo_de_driver="jdbc:mysql";
+    private String base_de_datos="mibanco?useSSL=false";
+    private String nombre_de_host="mibanco-reto.cmfcheyej0pq.us-east-1.rds.amazonaws.com";
+    private String puerto="3306";
+    private String usuario="admin";
+    private String contraseña="ocwAoyHFoR1RTiwZKQ5tTg==";
     private static DBManagerEncrip dbManager = null;
     
     private DBManagerEncrip(){}; //constructor privado para que no se pueda instanciar
@@ -44,7 +53,7 @@ public class DBManagerEncrip {
     
     public Connection getConnection(){        
         try {
-            leer_archivo_de_propiedades();
+            //leer_archivo_de_propiedades();
             Class.forName(this.driver);
             this.conexion = DriverManager.getConnection(getURL(), this.usuario, descifrarMD5(this.contraseña));
         } catch (ClassNotFoundException ex) {
