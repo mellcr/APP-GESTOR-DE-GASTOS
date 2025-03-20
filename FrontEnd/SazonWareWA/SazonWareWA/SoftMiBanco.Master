@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SazonWare.master.cs" Inherits="SazonWareWA.SazonWare" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SoftMiBanco.master.cs" Inherits="SazonWareWA.SoftMiBanco" %>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -38,7 +38,7 @@
             <hr />
             <ul class="mynav nav nav-pills flex-column mb-auto">
                 <li class="nav-item mb-1">
-                    <a href="GestionarGasto.aspx"><i class="fa-solid fa-flying-disc pe-2"></i>
+                    <a href="GestionGasto.aspx"><i class="fa-solid fa-flying-disc pe-2"></i>
                         Mantenimiento Gastos
                     </a>
                 </li>

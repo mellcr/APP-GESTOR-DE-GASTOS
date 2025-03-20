@@ -113,7 +113,6 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="SazonWare.Master" />
     <Content Include="Content\Fonts\webfonts\fa-brands-400.ttf" />
     <Content Include="Content\Fonts\webfonts\fa-brands-400.woff" />
     <Content Include="Content\Fonts\webfonts\fa-brands-400.woff2" />
@@ -164,13 +163,6 @@
       <DependentUpon>MantenimientoGasto.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SazonWare.Master.cs">
-      <DependentUpon>SazonWare.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SazonWare.Master.designer.cs">
-      <DependentUpon>SazonWare.Master</DependentUpon>
-    </Compile>
     <Compile Include="SoftMiBanco.Master.cs">
       <DependentUpon>SoftMiBanco.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
