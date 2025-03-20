@@ -38,8 +38,8 @@
             <hr />
             <ul class="mynav nav nav-pills flex-column mb-auto">
                 <li class="nav-item mb-1">
-                    <a href="RegistrarPlato.aspx"><i class="fa-solid fa-flying-disc pe-2"></i>
-                        Listar Gastos
+                    <a href="GestionarGasto.aspx"><i class="fa-solid fa-flying-disc pe-2"></i>
+                        Mantenimiento Gastos
                     </a>
                 </li>
             </ul>

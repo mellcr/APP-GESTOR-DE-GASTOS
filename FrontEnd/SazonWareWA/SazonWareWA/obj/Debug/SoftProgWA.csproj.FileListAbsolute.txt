@@ -13,3 +13,10 @@ C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\Saz
 C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareWA\obj\Debug\SoftProgWA.csproj.CoreCompileInputs.cache
 C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareWA\obj\Debug\SazonWareWA.dll
 C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareWA\obj\Debug\SazonWareWA.pdb
+C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareWA\bin\SazonWareWA.dll.config
+C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareWA\bin\SazonWareWA.dll
+C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareWA\bin\SazonWareWA.pdb
+C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareWA\bin\SazonWareBO.dll
+C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareWA\bin\SazonWareBO.pdb
+C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareWA\bin\SazonWareBO.dll.config
+C:\Users\mell1\Desktop\Projectos\App - Gestor de Gastos\FrontEnd\SazonWareWA\SazonWareWA\obj\Debug\SoftProgWA.csproj.Up2Date
